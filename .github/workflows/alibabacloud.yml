@@ -27,18 +27,18 @@ on:
 
 # Environment variables available to all jobs and steps in this workflow.
 env:
-  REGION_ID: us-west-1
-  REGISTRY: acr-ee-instance-01-registry.us-west-1.cr.aliyuncs.com
+  REGION_ID: ap-southeast-5
+  REGISTRY: gamebox-002-registry.ap-southeast-5.cr.aliyuncs.com
   NAMESPACE: test
   IMAGE: repo
   TAG: ${{ github.sha }}
   ACK_CLUSTER_ID: c751821f3e3be4b848f76be3f57d4f3f5
   ACK_DEPLOYMENT_NAME: nginx-deployment
 
-  ACR_EE_REGISTRY: acr-ee-instance-01-registry.us-west-1.cr.aliyuncs.com
-  ACR_EE_INSTANCE_ID: cri-b7kwubvzuzbryr5v
-  ACR_EE_NAMESPACE: test
-  ACR_EE_IMAGE: repo
+  ACR_EE_REGISTRY: gamebox-002-registry.ap-southeast-5.cr.aliyuncs.com
+  ACR_EE_INSTANCE_ID: cri-96ndj4isyv76pwum
+  ACR_EE_NAMESPACE: eka
+  ACR_EE_IMAGE: cms2
   ACR_EE_TAG: ${{ github.sha }}
 
 jobs:
