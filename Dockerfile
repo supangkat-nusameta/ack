@@ -1,2 +1,2 @@
 From nginx
-RUN  echo 'Deploying container to Alibaba Cloud ACK with GitHub Actions!' > /usr/share/nginx/html/index.html
+RUN  echo 'Supangkat Eka Prasetya, S.Kom' > /usr/share/nginx/html/index.html
