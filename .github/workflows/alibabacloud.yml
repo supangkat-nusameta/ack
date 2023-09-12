@@ -33,7 +33,7 @@ env:
   # ACK_CLUSTER_ID: clusterID
   # ACK_DEPLOYMENT_NAME: nginx-deployment
 
-  ACR_EE_REGISTRY: game-server-registry.ap-southeast-5.cr.aliyuncs.com
+  ACR_EE_REGISTRY: game-server-registry.ap-southeast-5.cr.aliyuncs.com/game/fe
   ACR_EE_INSTANCE_ID: cri-zatvi39wnlcdo6lx
   ACR_EE_NAMESPACE: game
   ACR_EE_IMAGE: fe
