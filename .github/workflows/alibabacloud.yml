@@ -7,6 +7,7 @@ on:
 # Environment variables available to all jobs and steps in this workflow.
 env:
   REGION_ID: ap-southeast-5
+  TAG: latest
   ACR_EE_REGISTRY: game-server-registry.ap-southeast-5.cr.aliyuncs.com
   ACR_EE_INSTANCE_ID: cri-zatvi39wnlcdo6lx
   ACR_EE_NAMESPACE: fe
