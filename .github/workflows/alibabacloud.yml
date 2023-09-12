@@ -36,7 +36,7 @@ env:
   ACR_EE_REGISTRY: game-server-registry.ap-southeast-5.cr.aliyuncs.com
   ACR_EE_INSTANCE_ID: cri-zatvi39wnlcdo6lx
   ACR_EE_NAMESPACE: game
-  ACR_EE_IMAGE: test-nginx
+  ACR_EE_IMAGE: fe
   ACR_EE_TAG: ${{ github.sha }}
 
 permissions:
