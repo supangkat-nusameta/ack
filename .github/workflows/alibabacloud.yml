@@ -24,14 +24,14 @@ on:
     branches: [ "dev" ]
 
 # Environment variables available to all jobs and steps in this workflow.
-env:
-  REGION_ID: ap-southeast-5.cr.aliyuncs.com
-  REGISTRY: game-server-registry.ap-southeast-5.cr.aliyuncs.com
-  NAMESPACE: game
-  IMAGE: fe
-  TAG: ${{ github.sha }}
-  #ACK_CLUSTER_ID: clusterID
-  ACK_DEPLOYMENT_NAME: nginx-deployment
+# env:
+#   REGION_ID: ap-southeast-5.cr.aliyuncs.com
+#   REGISTRY: game-server-registry.ap-southeast-5.cr.aliyuncs.com
+#   NAMESPACE: game
+#   IMAGE: fe
+#   TAG: ${{ github.sha }}
+#   ACK_CLUSTER_ID: clusterID
+#   ACK_DEPLOYMENT_NAME: nginx-deployment
 
   ACR_EE_REGISTRY: game-server-registry.ap-southeast-5.cr.aliyuncs.com
   ACR_EE_INSTANCE_ID: cri-zatvi39wnlcdo6lx
