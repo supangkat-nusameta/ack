@@ -29,7 +29,7 @@ env:
   # REGISTRY: game-server-registry.ap-southeast-5.cr.aliyuncs.com
   # NAMESPACE: game
   # IMAGE: fe
-  TAG: ${{ github.sha }}
+  TAG: latest
   # ACK_CLUSTER_ID: clusterID
   # ACK_DEPLOYMENT_NAME: nginx-deployment
 
@@ -37,7 +37,7 @@ env:
   ACR_EE_INSTANCE_ID: cri-zatvi39wnlcdo6lx
   ACR_EE_NAMESPACE: game
   ACR_EE_IMAGE: fe
-  ACR_EE_TAG: ${{ github.sha }}
+  ACR_EE_TAG: latest
 
 permissions:
   contents: read
